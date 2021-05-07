@@ -18,6 +18,7 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
+import { DarkBlueDirective } from './directives/dark-blue.directive';
 
 @NgModule({
   declarations: [
@@ -28,13 +29,14 @@ import { ProductCrudComponent } from './views/product-crud/product-crud.componen
     FooterComponent,
     NavComponent,
     HomeComponent,
-    ProductCrudComponent
+    ProductCrudComponent,
+    DarkBlueDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CursosModule, //necessário importar para que seja visto
+    CursosModule, 
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
