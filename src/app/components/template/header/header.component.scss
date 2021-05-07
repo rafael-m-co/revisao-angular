@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  #logo {
+    max-height: 64px;
+  }
+  .title-group {
+    padding-left: 20px;
+
+    i {
+      padding-right: 6px;
+    }
+  }
+}
