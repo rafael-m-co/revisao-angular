@@ -15,6 +15,8 @@ import { NavComponent } from './components/template/nav/nav.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { HomeComponent } from './views/home/home.component';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ import { MatListModule } from '@angular/material/list';
     MeuPrimeiro2Component,
     HeaderComponent,
     FooterComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { MatListModule } from '@angular/material/list';
     CursosModule, //necessário importar para que seja visto
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
