@@ -10,13 +10,15 @@ import { CursosModule } from './cursos/cursos.module';
 import { HeaderComponent } from './components/template/header/header.component';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { FooterComponent } from './components/template/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
