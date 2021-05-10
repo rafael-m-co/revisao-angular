@@ -19,6 +19,7 @@ import { HomeComponent } from './views/home/home.component';
 import { MatCardModule } from '@angular/material/card';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 import { DarkBlueDirective } from './directives/dark-blue.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DarkBlueDirective } from './directives/dark-blue.directive';
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    DarkBlueDirective
+    DarkBlueDirective,
+    ProductCreateComponent
   ],
   imports: [
     BrowserModule,
