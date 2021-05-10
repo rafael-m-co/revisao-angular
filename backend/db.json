@@ -8,12 +8,47 @@
     {
       "id": 2,
       "name": "notebook lenovo",
-      "price": 5000.00
+      "price": 5000
     },
     {
       "id": 3,
       "name": "smartphone lg",
-      "price": 920.50
+      "price": 920.5
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 4
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 5
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 6
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 7
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 8
+    },
+    {
+      "name": "Produto de Teste",
+      "price": 125.98,
+      "id": 9
+    },
+    {
+      "name": "carro azul",
+      "price": "423.11",
+      "id": 10
     }
   ]
 }
